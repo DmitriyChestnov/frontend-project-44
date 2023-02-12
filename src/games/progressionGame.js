@@ -5,6 +5,7 @@ const gameRules = 'What number is missing in the progression?';
 
 const gameRound = () => {
   const progressionLength = 10;
+
   let num = getRandomNumber(1, 19);
   const step = getRandomNumber(2, 19);
 

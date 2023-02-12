@@ -8,9 +8,11 @@ const generalGameLogic = (gameRules, gameRound) => {
 
   for (let i = 0; i < 3;) {
     const round = gameRound();
+
     const question = round[0];
     const answerTrue = round[1];
     console.log(`Quetion: ${question}`);
+
     const answerPlayer = readlineSync.question('Your answer:');
     if (answerPlayer === answerTrue) {
       console.log('Correct!');

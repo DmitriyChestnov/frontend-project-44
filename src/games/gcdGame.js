@@ -14,6 +14,7 @@ const getGcd = (a, b) => {
 const gameRound = () => {
   const a = getRandomNumber(1, 100);
   const b = getRandomNumber(1, 100);
+
   const question = `${a} ${b}`;
 
   let answerTrue = getGcd(a, b);
