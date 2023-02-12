@@ -12,7 +12,7 @@ const generalGameLogic = (gameRules, gameRound) => {
 
     const question = round[0];
     const answerTrue = round[1];
-    console.log(`Quetion: ${question}`);
+    console.log(`Question: ${question}`);
 
     const answerPlayer = readlineSync.question('Your answer:');
     if (answerPlayer === answerTrue) {
