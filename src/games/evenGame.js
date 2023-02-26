@@ -3,7 +3,7 @@ import generalGameLogic from '../index.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no"';
 
-const isEven = (num) => (num % 2 === 0);
+const isEven = (num) => num % 2 === 0;
 
 const gameRound = () => {
   const question = getRandomNumber(1, 100);
