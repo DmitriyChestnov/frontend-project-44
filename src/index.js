@@ -10,10 +10,7 @@ const generalGameLogic = (gameRules, gameRound) => {
   console.log(gameRules);
 
   for (let i = 0; i < roundCount; i += 1) {
-    const round = gameRound();
-
-    const question = round[0];
-    const answerTrue = round[1];
+    const [question, answerTrue] = gameRound();
     console.log(`Question: ${question}`);
 
     const answerPlayer = readlineSync.question('Your answer:');
