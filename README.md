@@ -4,14 +4,55 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a248f20a1a9ba530e52f/maintainability)](https://codeclimate.com/github/DmitriyChestnov/frontend-project-44/maintainability)
 
-[![asciicast](https://asciinema.org/a/SfqAJ57R1knJGQECUeQCPw4lE.svg)](https://asciinema.org/a/SfqAJ57R1knJGQECUeQCPw4lE)
+## Description
+"Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.
 
-[![asciicast](https://asciinema.org/a/J502hgJ9p27iwLJGqr0QgfZg0.svg)](https://asciinema.org/a/J502hgJ9p27iwLJGqr0QgfZg0)
 
-[![asciicast](https://asciinema.org/a/K8jV73siL2SaDF9JqwW3Gx8pb.svg)](https://asciinema.org/a/K8jV73siL2SaDF9JqwW3Gx8pb)
+## Setup
+```sh
+$ git clone https://github.com/DmitriyChestnov/frontend-project-44.git
+$ cd frontend-project-44
+$ npm ci
+$ npm link
+```
 
-[![asciicast](https://asciinema.org/a/kjBepYqsTBQ84jfHXGvewGA92.svg)](https://asciinema.org/a/kjBepYqsTBQ84jfHXGvewGA92)
+## Games demo
+### Brain-even
+```sh
+Determining an even number.
+To start the game type:
+`brain-even`
+```
+[![asciicast](https://asciinema.org/a/PgR3axLxHI1p4wqFNsTeWKLzi.svg)](https://asciinema.org/a/PgR3axLxHI1p4wqFNsTeWKLzi)
 
-[![asciicast](https://asciinema.org/a/ng9sqSumiFKDN0J6aUE3EOltO.svg)](https://asciinema.org/a/ng9sqSumiFKDN0J6aUE3EOltO)
+### Brain-calc 
+```sh
+Calculate random arithmetic expressions.
+To start the game type:
+`brain-calc`
+```
+[![asciicast](https://asciinema.org/a/yhGq7Sjav4bUl2PjrxQcKOiex.svg)](https://asciinema.org/a/yhGq7Sjav4bUl2PjrxQcKOiex)
 
-[![asciicast](https://asciinema.org/a/bCaIbd1FPUc7qMzJmbYaVDkDK.svg)](https://asciinema.org/a/bCaIbd1FPUc7qMzJmbYaVDkDK)
+### Brain-gcd
+```sh
+Determining the greatest common divisor.
+To start the game type:
+`brain-gcd`
+```
+[![asciicast](https://asciinema.org/a/5m2WtfBV4X059E2pV5LrFYRNU.svg)](https://asciinema.org/a/5m2WtfBV4X059E2pV5LrFYRNU)
+
+### Brain-progression
+```sh
+Find missing numbers in a number sequence.
+To start the game type:
+`brain-progression`
+```
+[![asciicast](https://asciinema.org/a/Ujs3G0FeND2H6O7tqMEl9Aou3.svg)](https://asciinema.org/a/Ujs3G0FeND2H6O7tqMEl9Aou3)
+
+### Brain-prime
+```sh
+Determining a prime number.
+To start the game type:
+`brain-prime`
+```
+[![asciicast](https://asciinema.org/a/oZSfqDi9J7JIX5uPrHfQqle3b.svg)](https://asciinema.org/a/oZSfqDi9J7JIX5uPrHfQqle3b)
